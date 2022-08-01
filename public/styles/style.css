@@ -1,0 +1,163 @@
+/* 24/27 base rules are converted successfully. */
+/* Gather results from the console with `copy(window.cssToTailwindResults)` */
+
+/* ℹ️ Base selector: .cards */
+/* ✨ TailwindCSS: "grid my-0 mx-auto" */
+/* ⚠️ Some properties could not be matched with Tailwind classes. Use @apply to extend a CSS rule: */
+.cards {
+  @apply grid my-0 mx-auto;
+  max-width: 1200px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* ℹ️ Base selector: :root */
+/* ❌ Could not match any TailwindCSS classes. */
+
+/* ℹ️ Base selector: .container, .box */
+/* ✨ TailwindCSS: "flex flex-wrap items-center" */
+
+/* ℹ️ Base selector: .box */
+/* ✨ TailwindCSS: "flex-shrink overflow-hidden" */
+/* ⚠️ Some properties could not be matched with Tailwind classes. Use @apply to extend a CSS rule: */
+.box {
+  @apply flex-shrink overflow-hidden;
+  flex-grow: 3;
+  flex-basis: 30ch;
+  height: calc(282px + 5vw);
+}
+
+/* ℹ️ Base selector: .box img */
+/* ✨ TailwindCSS: "h-auto min-h-full min-w-full object-cover w-auto" */
+/* ⚠️ Some properties could not be matched with Tailwind classes. Use @apply to extend a CSS rule: */
+.box img {
+  @apply h-auto min-h-full min-w-full object-cover w-auto;
+  object-position: 50% 50%;
+}
+
+/* ℹ️ Base selector: .container */
+/* ✨ TailwindCSS: "rounded-lg border-solid border-2 overflow-hidden" */
+/* ⚠️ Some properties could not be matched with Tailwind classes. Use @apply to extend a CSS rule: */
+.container {
+  @apply rounded-lg border-solid border-2 overflow-hidden;
+  border-color: rgba(242, 242, 242, 1);
+  box-shadow: 3px 6px 10px #0002;
+}
+
+/* ℹ️ Base selector: .content */
+/* ✨ TailwindCSS: "flex-shrink py-4 px-8" */
+/* ⚠️ Some properties could not be matched with Tailwind classes. Use @apply to extend a CSS rule: */
+.content {
+  @apply flex-shrink py-4 px-8;
+  flex-grow: 4;
+  flex-basis: 40ch;
+}
+
+/* ℹ️ Base selector: .tags */
+/* ✨ TailwindCSS: "my-0 -mx-2" */
+
+/* ℹ️ Base selector: .tag */
+/* ✨ TailwindCSS: "inline-flex flex-row items-center justify-center font-semibold text-sm m-2 uppercase tracking-wide" */
+
+/* ℹ️ Base selector: .tag .iconify */
+/* ✨ TailwindCSS: "text-base mr-1" */
+
+/* ℹ️ Base selector: .title */
+/* ✨ TailwindCSS: "m-0" */
+/* ⚠️ Some properties could not be matched with Tailwind classes. Use @apply to extend a CSS rule: */
+.title {
+  @apply m-0;
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+
+/* ℹ️ Base selector: .title a */
+/* ✨ TailwindCSS: "no-underline" */
+
+/* ℹ️ Base selector: .title:hover a */
+/* ❌ Could not match any TailwindCSS classes. */
+
+/* ℹ️ Base selector: .metadata */
+/* ✨ TailwindCSS: "m-0" */
+
+/* ℹ️ Base selector: .rating */
+/* ✨ TailwindCSS: "text-xl tracking-wider" */
+
+/* ℹ️ Base selector: .rating span */
+/* ❌ Could not match any TailwindCSS classes. */
+
+/* ℹ️ Base selector: .votes */
+/* ✨ TailwindCSS: "text-sm italic" */
+
+/* ℹ️ Base selector: .save */
+/* ✨ TailwindCSS: "bg-none border-current rounded border-solid border-2 cursor-pointer inline-flex items-center py-1 px-3" */
+/* ⚠️ Some properties could not be matched with Tailwind classes. Use @apply to extend a CSS rule: */
+.save {
+  @apply bg-none border-current rounded border-solid border-2 cursor-pointer inline-flex items-center py-1 px-3;
+  transition-duration: 0.3s;
+  transition-property: background-color, border-color, color, box-shadow;
+  font-weight: bold;
+}
+/* ⚠️ Some properties are requiring specific variants, but the variant does not support those. Consider extending your Tailwind config.
+focus:
+	box-shadow: 0 0 0 5px var(--shadow);
+*/
+
+/* ℹ️ Base selector: .buttons a */
+/* ✨ TailwindCSS: "no-underline" */
+
+/* ℹ️ Base selector: .save svg */
+/* ✨ TailwindCSS: "mr-1" */
+
+/* ℹ️ Base selector: .save .iconify */
+/* ✨ TailwindCSS: "text-xl" */
+
+/* ℹ️ Base selector: body */
+/* ✨ TailwindCSS: "flex flex-wrap justify-center" */
+/* ⚠️ Some properties could not be matched with Tailwind classes. Use @apply to extend a CSS rule: */
+body {
+  @apply flex flex-wrap justify-center;
+  line-height: 1.55;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+/* ℹ️ Base selector: .big */
+/* ✨ TailwindCSS: "p-6" */
+
+/* ℹ️ Base selector: .search */
+/* ✨ TailwindCSS: "flex justify-center mt-10" */
+/* ⚠️ Some properties could not be matched with Tailwind classes. Use @apply to extend a CSS rule: */
+.search {
+  @apply flex justify-center mt-10;
+  border-radius: 15px;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+/* ⚠️ Some properties are requiring specific variants, but the variant does not support those. Consider extending your Tailwind config.
+focus:
+	box-shadow: 3px 3px 10px var(--shadow);
+*/
+
+/* ℹ️ Base selector: .search .search_box */
+/* ✨ TailwindCSS: "flex-grow p-5" */
+/* ⚠️ Some properties could not be matched with Tailwind classes. Use @apply to extend a CSS rule: */
+.search .search_box {
+  @apply flex-grow p-5;
+  border-radius: 15px;
+}
+
+/* ℹ️ Base selector: .search .search_btn */
+/* ✨ TailwindCSS: "cursor-pointer text-base text-white" */
+/* ⚠️ Some properties could not be matched with Tailwind classes. Use @apply to extend a CSS rule: */
+.search .search_btn {
+  @apply cursor-pointer text-base text-white;
+  border-radius: 0 12px 12px 0;
+}
+
+/* ℹ️ Base selector: .message */
+/* ✨ TailwindCSS: "text-5xl absolute text-center w-full" */
+/* ⚠️ Some properties could not be matched with Tailwind classes. Use @apply to extend a CSS rule: */
+.message {
+  @apply text-5xl absolute text-center w-full;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(136, 136, 136, 1);
+}

@@ -1,0 +1,26 @@
+{
+  "name": "testing-stuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:build": "postcss ./public/styles/style.css -o build.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "fuse.js": "^6.4.6",
+    "handlebars-helpers": "^0.10.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "postcss-cli": "^8.3.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.4"
+  }
+}
